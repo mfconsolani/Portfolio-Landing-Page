@@ -13,11 +13,18 @@ nav {
 }
 
 
-nav .navbar-brand {
+.navbar-brand {
     font-family:'Calligraffitti', cursive;
     font-weight: bold;
+    transition: 0.4s;
     font-size: 30px;
     transform: rotate(-8deg);
+
+}
+
+.navbar-brand:hover {
+    transition: 0.4s;
+    transform: rotate(0deg);
 }
 
 
@@ -100,6 +107,55 @@ nav .navbar-brand {
     /* border: 1px solid black; */
 }
 
+p i {
+    background: #ffcc00;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fa-github{
+    font-size: 23px;
+    padding: 7px;
+}
+
+
+#about-me-three a {
+    color: #000000;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+#about-me-three a:active {
+    color: #000000;
+    font-size: 1em;
+} 
+#about-me-three a:focus {
+    color: #ffcc00f0;
+    outline: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); /* offset-x | offset-y | blur-radius | color */
+} 
+#about-me-three a:hover {
+    color: #ffcc00f0;
+    text-decoration: none;
+    transition: 0.1s;
+} 
+
+#about-me-three p:nth-of-type(2n) {
+    margin-left: 2em;
+}
+
+#download-cv {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+    margin-left: 4em;
+    border-radius: 30px;
+    border: 2px solid #202020;
+}
+
+
 #about-me-one {
     display: flex;
     align-self: flex-end;
@@ -118,7 +174,7 @@ nav .navbar-brand {
 #about-me-two {
 }
 
-#about-me-two p:nth-of-type(2n) {
+#signature {
     font-family:'Calligraffitti', cursive;
     font-weight: 700;
     text-align: end;
