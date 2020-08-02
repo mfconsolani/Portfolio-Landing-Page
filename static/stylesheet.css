@@ -56,6 +56,7 @@ nav {
 #sep-line-one {
     height: .7em;
     background-color: #ffcc00f0;
+    margin-bottom: 1em;
 }
 
 #sep-line-two {
@@ -103,8 +104,8 @@ nav {
     font-style: italic;
 }
 
-#section-one div {
-    /* border: 1px solid black; */
+#section-two h2 {
+    font-family: 'Calligraffitti', cursive;
 }
 
 p i {
@@ -143,7 +144,7 @@ p i {
 } 
 
 #about-me-three p:nth-of-type(2n) {
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
 
 #download-cv {
@@ -170,14 +171,51 @@ p i {
     color: #ffcc00;
 }
 
-
-#about-me-two {
-}
-
 #signature {
     font-family:'Calligraffitti', cursive;
     font-weight: 700;
     text-align: end;
+}
+
+#section-two>div {
+    justify-content: space-evenly;
+    background-color: #ffcc00e0;
+    padding: 2em;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 10px;
+    color: #ffcc00;
+    margin-left: 0.5em; 
+    margin-right: 0.5em;
+    margin: 1em 0.5em 1em 0.5em;
+    width: 22rem;
+}
+
+.card button {
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 1.3em;
+    font-family: ;
+    border-radius: 7px;
+    outline: #ffcc00;
+    border: 2px solid #ffcc00;
+}
+.card-img-top {
+    width: 21rem;
+    height: auto;
+    margin-top: 0.5em;
+    border-radius: 11px;
+}
+
+.card-title {
+    font-family: 'Calligraffitti', cursive;
+}
+
+.card-text {
+    color: #ffffff;
 }
 
 footer {
