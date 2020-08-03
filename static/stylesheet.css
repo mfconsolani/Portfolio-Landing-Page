@@ -116,8 +116,6 @@ nav {
     display: flex;
     justify-content: center;
     font-family: 'Calligraffitti', cursive;
-
-
 }
 
 p i {
@@ -161,21 +159,27 @@ p i {
 }
 
 #download-cv {
+    box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 1.2em;
+    font-weight: 500;
     margin-left: 4em;
     border-radius: 30px;
     border: 2px solid #202020;
 }
 
+#download-cv:hover, #download-cv:focus {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid #ffcc00;
+}
+
 
 #about-me-one {
     display: flex;
-    align-self: flex-end;
+    align-self: center;
     line-height: 1em;
     background-color: #ffffff;
-    height: 30vh;
+    height: auto;
     font-size: 2.5em;
     font-weight: 600;
 }
@@ -194,9 +198,13 @@ p i {
     text-align: end;
 }
 
+#section-two {
+    background-color: #ffcc00e0;
+}
+
+
 #section-two>div {
     justify-content: space-evenly;
-    background-color: #ffcc00e0;
     padding: 2em;
 }
 
@@ -241,4 +249,30 @@ footer {
     height: 10vh;
     background-color: rgba(0, 0, 0, 0.9);
     margin-top: 1vh;
+}
+
+@media (max-width:768px) {
+    #about-me-one, #about-me-one p {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+}
+
+@media (max-width:406px) {
+    .card-img-top {
+        max-width: 20rem;
+        height: auto;
+        margin-top: 0.5em;
+        border-radius: 11px;
+    }
+}
+
+@media (max-width:320px) {
+    .card-img-top {
+        max-width: 13rem;
+        height: auto;
+        margin-top: 0.5em;
+        border-radius: 11px;
+    }
 }
