@@ -104,8 +104,20 @@ nav {
     font-style: italic;
 }
 
+#section-two h5 {
+    font-weight: 400;
+}
+
+#section-two h5 span {
+    font-weight: 400;
+}
+
 #section-two h2 {
+    display: flex;
+    justify-content: center;
     font-family: 'Calligraffitti', cursive;
+
+
 }
 
 p i {
@@ -114,6 +126,7 @@ p i {
     padding: 10px;
     border-radius: 50%;
     margin-right: 10px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.6);
 }
 
 .fa-github{
@@ -171,6 +184,10 @@ p i {
     color: #ffcc00;
 }
 
+#about-me-one p {
+    text-shadow: 3px 3px 8px #d0d0d0; /* offset-x | offset-y | blur-radius | color */
+}
+
 #signature {
     font-family:'Calligraffitti', cursive;
     font-weight: 700;
@@ -217,6 +234,8 @@ p i {
 .card-text {
     color: #ffffff;
 }
+
+
 
 footer {
     height: 10vh;
