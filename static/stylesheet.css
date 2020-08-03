@@ -243,6 +243,13 @@ p i {
     color: #ffffff;
 }
 
+#section-two .card-body:nth-of-type(1n) p em {
+    color: #ffcc00;
+} 
+
+#section-two .card-body p span {
+    color: #ffcc00;
+} 
 
 
 footer {
