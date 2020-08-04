@@ -270,6 +270,26 @@ p i {
     color: #ffcc00;
 } 
 
+#section-three {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid white;
+}
+
+#section-three {
+    color: #f0f0f0;
+}
+
+#section-three h3 {
+    font-family: 'Calligraffitti', cursive;
+    color: #ffcc00;
+}
+
+#section-three img {
+    max-height: 400px;
+    margin:auto;
+    border-radius: 10px;
+}
+
 main { 
     position: relative;
     justify-content: center;
@@ -307,7 +327,13 @@ footer p:nth-of-type(2n) {
     display: none;
 }
 
-
+@media (max-width:732px) { 
+    #section-three img {
+        max-height: 200px;
+        margin:auto;
+        border-radius: 10px;
+    }
+}
 @media (max-width:768px) {
     #about-me-one, #about-me-one p {
         display: flex;
@@ -346,6 +372,13 @@ footer p:nth-of-type(2n) {
         margin-top: 0.5em;
         border-radius: 11px;
     }
+
+    #section-three img {
+        max-height: 140px;
+        margin:auto;
+        border-radius: 10px;
+    }
+
     footer p {
         display:none;
     }
