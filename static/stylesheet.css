@@ -200,11 +200,14 @@ p i {
 #signature {
     font-family:'Calligraffitti', cursive;
     font-weight: 700;
-    text-align: end;
 }
 
 #about-me-two p {
     text-align: justify;
+}
+
+#about-me-two p:last-of-type {
+    text-align: end;
 }
 
 /* #about-me-three {
