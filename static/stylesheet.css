@@ -272,23 +272,67 @@ p i {
 
 #section-three {
     background-color: rgba(0, 0, 0, 0.9);
+    background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 6em,
+    #333 6em,
+    #333 12em
+    );
 }
 
-#section-three {
+#section-three h5 {
+    color: #f0f0f0;
+    font-weight: 400;
+}
+
+#section-three h5 span {
+    color: #ffcc00e0;
+    font-weight: 400;
+}
+
+#section-three span i {
+    background: #101010;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: -1px 1px 6px 1px #fc0;
+}
+
+#section-three div.row div.col-1 {
+    margin-right: 16px;
+} 
+
+#section-three i {
+    color: #ffcc00;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#section-three p {
+    color: #ffffff
+}
+
+#section-five {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#section-five {
     color: #f0f0f0;
 }
 
-#section-three h3 {
+#section-five h3, #section-three h3 {
     font-family: 'Calligraffitti', cursive;
     color: #ffcc00;
 }
 
-#section-three img {
+#section-five img {
     max-height: 400px;
     margin:auto;
     border-radius: 10px;
 }
-#section-three p span {
+#section-five p span {
     color: #ffcc00;
 }
 
@@ -310,12 +354,16 @@ footer {
     bottom: 0;
 }
 
+
+
 .fa-tools, .fa-hard-hat{
     color: #ffcc00;
     font-size: 2em;
     padding-left: 2em;
     padding-right: 2em;
 }
+
+
 
 footer p:nth-of-type(1n) {
     text-align:center;
@@ -330,29 +378,42 @@ footer p:nth-of-type(2n) {
 }
 
 @media (max-width:732px) { 
-    #section-three img {
+    #section-five img {
         max-height: 200px;
         margin:auto;
         border-radius: 10px;
     }
 }
+@media (max-width:850px) {
+    #section-three span i {
+    line-height: 1.5;
+    color: #ffcc00;
+    font-size: 1em;
+    padding-right: 0.7em;
+    background: none;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 0;
+    box-shadow: none;
+    }
+    #section-three div.row div.col-1 {
+        margin-right: 0;
+    }
+}
+
+
 @media (max-width:768px) {
     #about-me-one, #about-me-one p {
         display: flex;
         justify-content: center;
         height: auto;
     }
-    .fa-tools {
+    .fa-tools, .fa-hard-hat {
         color: #ffcc00;
         font-size: 1em;
         padding-right: 0.7em;
     }
 
-    .fa-hard-hat {
-        color: #ffcc00;
-        font-size: 1em;
-        padding-left: 0.7em;
-    }
     footer p:nth-of-type(1n) {
         display: none;
     }
@@ -367,6 +428,13 @@ footer p:nth-of-type(2n) {
     }
 }
 
+@media (min-width: 576px) {
+    .col-sm-4 {
+    max-width: 33.333333%;
+    padding-right: 26px;
+    }
+}
+
 @media (max-width:406px) {
     .card-img-top {
         max-width: 20rem;
@@ -375,7 +443,7 @@ footer p:nth-of-type(2n) {
         border-radius: 11px;
     }
 
-    #section-three img {
+    #section-five img {
         max-height: 140px;
         margin:auto;
         border-radius: 10px;
