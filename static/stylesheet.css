@@ -242,13 +242,32 @@ p i {
 }
 
 .card button {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #ffcc00ff;
     font-size: 1.3em;
-    font-family: ;
     border-radius: 7px;
+    padding-left: 5px;
+    padding-right: 5px; 
     outline: #ffcc00;
-    border: 2px solid #ffcc00;
+    border: 2px solid #fc0;
+    transition: 0.3s;
 }
+
+.card button:hover {
+    background-color: #fffffffd;
+    box-sizing: border-box;
+}
+
+.card button:focus, .card a:focus {
+    outline: #ffcc00;
+    outline-width: 1px;
+}
+
+.card button:active {
+    background-color: #fffffffd;
+    font-size: 1.25em;
+    box-sizing: border-box;
+}
+
 .card-img-top {
     width: 21rem;
     height: auto;
@@ -273,8 +292,6 @@ p i {
 } 
 
 #section-three {
-    
-    /* border: 1px solid #222; */
     background: repeating-linear-gradient(
     -55deg,
     #222,
