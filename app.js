@@ -22,13 +22,16 @@
 //       clockButton.innerHTML = 'Hide clock';
 //     }
 //   }
+var x = document.querySelectorAll(".hidden");
+
+x.forEach() {
+    myFunction();
+}
 
 function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    if (ele.style.display === "none") {
+      ele.style.display = "block";
     } else {
-      x.style.display = "none";
+      ele.style.display = "none";
     }
   }
-  
