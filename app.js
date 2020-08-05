@@ -22,16 +22,37 @@
 //       clockButton.innerHTML = 'Hide clock';
 //     }
 //   }
-var x = document.querySelectorAll(".hidden");
 
-x.forEach() {
-    myFunction();
+// var x = document.querySelectorAll(".hidden");
+
+// x.forEach() {
+//     myFunction();
+// }
+
+// function myFunction() {
+//     if (ele.style.display === "none") {
+//       ele.style.display = "block";
+//     } else {
+//       ele.style.display = "none";
+//     }
+//   }
+
+// var hiddenPara = document.querySelectorAll("p.hidden");
+// console.log(hiddenPara);
+.classList.toggle("hidden")
+
+var hideableSections = document.querySelectorAll("p.hidden");
+console.log(hideableSections);
+var keyArray = Object.keys(hideableSections)
+console.log(keyArray);
+
+function myFunction() { 
+    keyArray.forEach(function(key) {
+    if (hideableSections[key].style.display === 'none') {
+        hideableSections[key].style.display = "block";
+      } else {
+        hideableSections[key].style.display = "none";
+      }
+    });
 }
 
-function myFunction() {
-    if (ele.style.display === "none") {
-      ele.style.display = "block";
-    } else {
-      ele.style.display = "none";
-    }
-  }
