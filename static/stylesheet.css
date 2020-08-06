@@ -351,6 +351,7 @@ p i {
     #222 40vw,
     #ffcc00c8 10vw
     );
+    border-bottom: 3px solid #fc0;
 }
 
 #section-four {
@@ -581,7 +582,7 @@ footer p:nth-of-type(2n) {
         margin-top: 0.5em;
         border-radius: 11px;
     }
-    /* , #section-four img */
+
     #section-five img {
         max-height: 140px;
         margin:auto;
