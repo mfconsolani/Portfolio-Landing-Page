@@ -12,10 +12,25 @@ body {
     margin: 0;
 }
 
-nav {
-    background-color: #ffcc00;
+nav.navbar.nav-active {
+    opacity: 0.9;
+    transition: 0.3s;
 }
 
+nav.navbar {
+    background-color: #ffcc00;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 4;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+}
 
 .navbar-brand {
     font-family:'Calligraffitti', cursive;
