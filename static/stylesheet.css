@@ -482,13 +482,11 @@ footer p:nth-of-type(2n) {
 /* , #section-four img */
 
 @media (max-width:1199px) {
-    #section-four h3, #section-four h5  {
-        color: black;
-    }
     #section-four h3 {
+        color: black;
         font-weight: bold;
     }
-    #section-four p {
+    #section-four blockquote, .blockquote-footer  {
         color: black;
     }
 
@@ -498,6 +496,23 @@ footer p:nth-of-type(2n) {
     #section-four .modal-title {
         font-family: 'Calligraffitti', cursive;
         color: #ffcc00;
+    }
+    #section-four {
+        background: linear-gradient(
+        -45deg,
+        #222 50vw,
+        #ffcc00c8 10vw
+        );
+    }
+}
+
+@media (max-width:987px) {
+    #section-four {
+        background: linear-gradient(
+        -45deg,
+        #222 95vw,
+        #ffcc00c8 10vw
+        );
     }
 }
 
