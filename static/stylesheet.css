@@ -131,6 +131,16 @@ p i {
     box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.6);
 }
 
+.fa-times-circle {
+    background: #ffcc00;
+    font-size: 1em;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.6);
+}
+
 .fa-github{
     font-size: 23px;
     padding: 7px;
@@ -335,6 +345,80 @@ p i {
     color: #ffffff
 }
 
+#section-four {
+    background: linear-gradient(
+    -45deg,
+    #222 40vw,
+    #ffcc00c8 10vw
+    );
+}
+
+#section-four {
+    color: #f0f0f0;
+}
+
+#section-four h3, #section-three h3 {
+    font-family: 'Calligraffitti', cursive;
+    color: #ffcc00;
+}
+
+#section-four img {
+    box-sizing: border-box;
+    max-height: 400px;
+    margin:auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.7);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#section-four .row img:hover {
+    /* background-color: #fc0; */
+    opacity: 0.9;
+    transition: 0.2s ease;
+    transform: scale(1.1);
+} 
+
+#section-four .carousel-inner img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#section-four p span {
+    color: #ffcc00;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-header button.close {
+    padding: 10px 5px 5px 5px;
+}
+
+.modal-header {
+    border-bottom: 2px solid #fc0;
+}
+
+.modal-title {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.modal-title span {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 400;
+    color: #ffcc00;
+}
+
+.modal-footer {
+    border-top: 2px solid #fc0;
+}
+
 #section-five {
     background-color: rgba(0, 0, 0, 0.9);
 }
@@ -395,8 +479,30 @@ footer p:nth-of-type(2n) {
     display: none;
 }
 
+/* , #section-four img */
+
+@media (max-width:1199px) {
+    #section-four h3, #section-four h5  {
+        color: black;
+    }
+    #section-four h3 {
+        font-weight: bold;
+    }
+    #section-four p {
+        color: black;
+    }
+
+    #section-four p span {
+        color: #808080;
+    }
+    #section-four .modal-title {
+        font-family: 'Calligraffitti', cursive;
+        color: #ffcc00;
+    }
+}
+
 @media (max-width:732px) { 
-    #section-five img {
+    #section-five img { 
         max-height: 200px;
         margin:auto;
         border-radius: 10px;
@@ -460,7 +566,7 @@ footer p:nth-of-type(2n) {
         margin-top: 0.5em;
         border-radius: 11px;
     }
-
+    /* , #section-four img */
     #section-five img {
         max-height: 140px;
         margin:auto;
