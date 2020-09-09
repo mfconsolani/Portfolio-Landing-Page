@@ -185,9 +185,25 @@ p i {
     transition: 0.1s;
 } 
 
-#about-me-three p:nth-of-type(2n) {
-    /* margin-left: 2em; */
+#section-three a {
+    color: #f0f0f0;
+    transition: 0.3s;
 }
+
+#section-three a:active {
+    color: #fff;
+    font-size: 1em;
+} 
+#section-three a:focus {
+    color: #ffcc00f0;
+    outline: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); /* offset-x | offset-y | blur-radius | color */
+} 
+#section-three a:hover {
+    color: #ffcc00f0;
+    text-decoration: none;
+    transition: 0.3s;
+} 
 
 #download-cv {
     box-sizing: border-box;
