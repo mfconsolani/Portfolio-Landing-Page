@@ -513,8 +513,6 @@ footer p:nth-of-type(2n) {
     display: none;
 }
 
-/* , #section-four img */
-
 @media (max-width:1199px) {
     #section-four h3 {
         color: black;
