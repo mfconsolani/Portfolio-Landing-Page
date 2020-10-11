@@ -554,15 +554,15 @@ footer p:nth-of-type(2n) {
 }
 @media (max-width:850px) {
     #section-three span i {
-    line-height: 1.5;
-    color: #ffcc00;
-    font-size: 1em;
-    padding-right: 0.7em;
-    background: none;
-    padding: 0;
-    border-radius: 50%;
-    margin-right: 0;
-    box-shadow: none;
+        line-height: 1.5;
+        color: #ffcc00;
+        font-size: 1em;
+        padding-right: 0.7em;
+        background: none;
+        padding: 0;
+        border-radius: 50%;
+        margin-right: 0;
+        box-shadow: none;
     }
     #section-three div.row div.col-1 {
         margin-right: 0;
