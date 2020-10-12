@@ -401,7 +401,6 @@ p i {
 }
 
 #section-four .row img:hover {
-    /* background-color: #fc0; */
     opacity: 0.9;
     transition: 0.2s ease;
     transform: scale(1.1);
@@ -468,10 +467,10 @@ p i {
     border-radius: 10px;
     box-shadow: 2px 1px 5px 2px rgba(255, 255, 255, 0.1);
 }
+
 #section-five p span {
     color: #ffcc00;
 }
-
 
 main { 
     position: relative;
