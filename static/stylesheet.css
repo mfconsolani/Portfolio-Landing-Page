@@ -171,11 +171,13 @@ p i {
     color: #000000;
     font-size: 1em;
 } 
+
 #about-me-three a:focus {
     color: #ffcc00f0;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); /* offset-x | offset-y | blur-radius | color */
-} 
+}
+
 #about-me-three a:hover {
     color: #ffcc00f0;
     text-decoration: none;
@@ -253,7 +255,6 @@ p i {
 #section-two {
     background-color: #ffcc00e0;
 }
-
 
 #section-two>div {
     justify-content: space-evenly;
