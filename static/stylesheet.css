@@ -557,11 +557,11 @@ footer p:nth-of-type(2n) {
         margin-right: 0;
         box-shadow: none;
     }
+
     #section-three div.row div.col-1 {
         margin-right: 0;
     }
 }
-
 
 @media (max-width:768px) {
     #about-me-one, #about-me-one p {
@@ -569,6 +569,7 @@ footer p:nth-of-type(2n) {
         justify-content: center;
         height: auto;
     }
+
     .fa-tools, .fa-hard-hat {
         color: #ffcc00;
         font-size: 1em;
